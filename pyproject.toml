@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "llm-from-scratch"
+version = "0.1.0"
+description = ""
+authors = ["apavlidis <apavlidis@icloud.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.*"
+jupyter = "^1.1.1"
+torch = "^2.5.1"
+numpy = "^2.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
